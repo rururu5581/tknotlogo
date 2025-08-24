@@ -52,7 +52,7 @@ const App: React.FC = () => {
   };
 
   return (
-    <div className="#0094FF min-h-screen text-gray-800 flex flex-col items-center p-4 sm:p-6 md:p-8">
+    <div className="#6CD0FF min-h-screen text-gray-800 flex flex-col items-center p-4 sm:p-6 md:p-8">
       <header className="w-full max-w-4xl text-center mb-8">
         <img 
           src={logo}
