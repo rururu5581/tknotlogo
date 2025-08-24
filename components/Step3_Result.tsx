@@ -69,7 +69,7 @@ const Step3Result: React.FC<Step3ResultProps> = ({ result, formData, onRestart }
         <h4 className="text-lg font-bold text-gray-800 mb-3">t-knotからのメッセージ</h4>
         <p className="text-gray-600 text-sm leading-6 max-w-2xl mx-auto">
           この診断は、あくまで一般的な目安です。あなたにとって本当に最適なプランは、あなたの価値観や想いを直接お伺いしながら、一緒に作り上げていくものだと信じています。<br/>
-          私たちt-knotは、保険を売るプロではありません。あなたの人生に寄り添うパートナーです。給付の時には命がけでサポートすることをお約束します。<br/>
+          私たちt-knotは、保険販売屋さんではありません。あなたの人生に寄り添うパートナーです。給付の時には命がけでサポートすることをお約束します。<br/>
           どんな小さなことでも、お気軽にご相談ください。
         </p>
       </div>
