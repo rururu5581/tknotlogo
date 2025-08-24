@@ -3,7 +3,7 @@ import type { FormData, DiagnosisResult } from '../types';
 
 // Using the recommended model for this text-based task.
 // By defining it as a constant, it's easy to update in the future.
-const GEMINI_MODEL = "gemini-2.5-flash";
+const GEMINI_MODEL = process.env.GEMINI_MODEL || "gemini-2.5-flash";
 
 const responseSchema = {
   type: Type.OBJECT,
