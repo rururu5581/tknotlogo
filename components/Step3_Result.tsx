@@ -16,9 +16,9 @@ const ContactModal: React.FC<{ onClose: () => void }> = ({ onClose }) => (
             <h3 className="text-2xl font-bold text-sky-700 mb-4">無料相談のご予約</h3>
             <p className="text-gray-600 mb-6">まずはお気軽にご連絡ください。あなたの想いをお聞かせいただけるのを楽しみにしております。</p>
             <div className="space-y-4">
-                <p><strong>代表:</strong> 田中 太郎 (Taro Tanaka)</p>
-                <p><strong>電話:</strong> <a href="tel:090-1234-5678" className="text-sky-600 hover:underline">090-1234-5678</a></p>
-                <p><strong>Email:</strong> <a href="mailto:soudan@t-knot.example.com" className="text-sky-600 hover:underline">soudan@t-knot.example.com</a></p>
+                <p><strong>代表:</strong> 龍田　なるみ (Narumi Tatsuta)</p>
+                <p><strong>電話:</strong> <a href="tel:090-7471-0763" className="text-sky-600 hover:underline">090-7471-0763</a></p>
+                <p><strong>Email:</strong> <a href="mailto:tatsuta_n@tknot.co.jp" className="text-sky-600 hover:underline">tatsuta_n@tknot.co.jp</a></p>
             </div>
              <button onClick={onClose} className="mt-6 w-full bg-gray-200 text-gray-700 font-bold py-2 px-4 rounded-lg hover:bg-gray-300 transition-colors">
                 閉じる
